@@ -76,6 +76,25 @@ Section: optional
 Installed-Size: 162087
 Maintainer: hello@mr.staker.ltd
 Architecture: amd64
+Version: 1.3.35.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-test
+Filename: pool/main/e/elrond-dev/elrond-dev_1.3.35.0_amd64.deb
+Size: 24408892
+MD5sum: 7089e4009c9b42073e96b709d7afe318
+SHA1: 25d40ee831a6226551bd91e9c633780497216ef4
+SHA256: 45d263fe3d7ec75cdabfaabf5766f867dc154d253c6e25fe4d477eb0f0e3cc2d
+SHA512: 72466c3685d6576fdf5e8747ebfdbadd9cbba938957adfb10be529fab7be0c5e1d8d5454ddeccdc8a49a34a7c578adf04cfeb1d98914c7d6de30ba9495e273f3
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-dev
+Priority: extra
+Section: optional
+Installed-Size: 162087
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
 Version: 1.3.31.0
 Depends: staker-repo
 Conflicts: elrond-main, elrond-test
