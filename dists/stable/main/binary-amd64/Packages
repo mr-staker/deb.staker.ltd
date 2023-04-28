@@ -1,0 +1,1719 @@
+Package: bfg
+Priority: extra
+Section: optional
+Installed-Size: 14144
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.14.0
+Depends: openjdk-11-jre-headless
+Filename: pool/main/b/bfg/bfg_1.14.0_amd64.deb
+Size: 13064658
+MD5sum: f3c8ef3d8ce8191ada8c6a45a8bde669
+SHA1: 79a069d8f891b045633a9f4f60bed5418aa6c6fb
+SHA256: fbbfba5f0a1571f00e8b9eb47127f1066d42639ed4083257aaaab412b3ac2720
+SHA512: c05e6613ea6776425585c7288ce28354ad3b4a1f051ea7ca71c350d47177f6f2f4548be3bf09f653eae5eb8b0ce9d6b878335edf711fc6cf3663c23f304ba266
+Description: Removes large or troublesome blobs like git-filter-branch does, but faster
+Homepage: https://github.com/rtyley/bfg-repo-cleaner
+License: GPLv3
+
+Package: createrepo
+Priority: optional
+Section: optional
+Installed-Size: 430
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.20.1
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm9, libcreaterepo0
+Filename: pool/main/c/createrepo/createrepo_0.20.1_amd64.deb
+Size: 173958
+MD5sum: 8c80a012b8975283cf7ad74e6ea98a5d
+SHA1: 76ae8eed505c0acb16768df66de73296be82b176
+SHA256: b5604765d176da7342c5f0df158584eb0fb6388f0ba11b29f2516c965c14171a
+SHA512: 7c2e6ace562b481eb4585bed2e7858b51e69e7efa0182a58be5235cea0f05591e46490a42e1d189800e65912ffb35ba5cc1d04c9476de3a12c3304fa0b992956
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: createrepo
+Priority: extra
+Section: optional
+Installed-Size: 496
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.19.0
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm8, libcreaterepo0
+Filename: pool/main/c/createrepo/createrepo_0.19.0_amd64.deb
+Size: 186150
+MD5sum: 6a64c5f131c40aad749625b5e5ae004b
+SHA1: a0108127168900eacc7a95619b49d0a209054d7b
+SHA256: 8de417b4be1d6163c1a4ef0a8598d489aea7ca36b33083688d5fb92dc9788850
+SHA512: f3b62354f7061da2592958098adc88af2067f9cf0241038f875b7feca40bdb54965f88a290653216e5be99f384d8b5cc1b0827f77c47e4692e358a0932c5b227
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: createrepo
+Priority: extra
+Section: optional
+Installed-Size: 495
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.18.0
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm8, libcreaterepo0
+Filename: pool/main/c/createrepo/createrepo_0.18.0_amd64.deb
+Size: 186012
+MD5sum: f0cf3eea3face4088a9d09b35ffd24a4
+SHA1: cdc43d7fac729215c9b3bb8f9041152cc5be98ae
+SHA256: 426a00063d149bb6424a37a03b0cf546c17f7c64f400a30b374acbec069b07e1
+SHA512: 8d74d56a726c3f996a9aa6a779f296891c136e18f7e8a96d576876567662545d4d915aa2cb7eba4217c83276e8730704b113b767255c5d09204fb2dfb88bb9d9
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: elrond-dev
+Priority: extra
+Section: optional
+Installed-Size: 165208
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.36.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-test
+Filename: pool/main/e/elrond-dev/elrond-dev_1.3.36.0_amd64.deb
+Size: 26155212
+MD5sum: 6d541e78aec20b2f155600ce8231a9eb
+SHA1: 75b177878feb5cd9983400eada442274eec8661f
+SHA256: d6e76b0b9ffb5914ab8de4470bbac92443927261d1836dbbc48f7380cd1faaaf
+SHA512: 642891479f370c9a8592e4ede1ba9d991eb7d380b9a9528de7c9937a77f3e0857471923827879617f5eebba20e34efa9e3def25acc8995debfa7460aa6bbf9d2
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-dev
+Priority: extra
+Section: optional
+Installed-Size: 162087
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.35.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-test
+Filename: pool/main/e/elrond-dev/elrond-dev_1.3.35.0_amd64.deb
+Size: 24408892
+MD5sum: 7089e4009c9b42073e96b709d7afe318
+SHA1: 25d40ee831a6226551bd91e9c633780497216ef4
+SHA256: 45d263fe3d7ec75cdabfaabf5766f867dc154d253c6e25fe4d477eb0f0e3cc2d
+SHA512: 72466c3685d6576fdf5e8747ebfdbadd9cbba938957adfb10be529fab7be0c5e1d8d5454ddeccdc8a49a34a7c578adf04cfeb1d98914c7d6de30ba9495e273f3
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-dev
+Priority: extra
+Section: optional
+Installed-Size: 162087
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.31.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-test
+Filename: pool/main/e/elrond-dev/elrond-dev_1.3.31.0_amd64.deb
+Size: 24404684
+MD5sum: 9a7a82ae9df174dc8bfd7704f98b217b
+SHA1: d67de0d495c2e0eb5db5193ebd7f5a834733bf41
+SHA256: b70625567179738680a75d3f128a03b5de4563d9a6a9ffe5292eac1a4ae76ef6
+SHA512: b70ec0f18336117ecc58e25bbca5b3180f001aa67dff9fadc620214318cb8bb9ae6e4ede78edf5685ab6e1e432d63d590936bda37110ddfbf9cb045c56010649
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-main
+Priority: extra
+Section: optional
+Installed-Size: 165809
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.36.0
+Depends: staker-repo
+Conflicts: elrond-test, elrond-dev
+Filename: pool/main/e/elrond-main/elrond-main_1.3.36.0_amd64.deb
+Size: 24232024
+MD5sum: 604b370d3f59feeca90ade3d33cf7026
+SHA1: a5376549b958cf165212e0ace9cac725da291c8c
+SHA256: 5be5994e8278e00ee2d943d81b5b3b38f6d0e85442648bc30a74edeff2e2a6e3
+SHA512: ca809e71a9af8bb304965780eaae2dc3503aa6f5794c92ba3da617abda353e3524f60eef8eb15385832fd6ad33b81984e7c8aecb5d7d8514653fbe49c941acc8
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-main
+Priority: extra
+Section: optional
+Installed-Size: 162688
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.35.0
+Depends: staker-repo
+Conflicts: elrond-test, elrond-dev
+Filename: pool/main/e/elrond-main/elrond-main_1.3.35.0_amd64.deb
+Size: 24633844
+MD5sum: 17f29438267ebe1c6ef21acda9143a39
+SHA1: 1141d00e0656201a5e3b1d51c09eb510bad59bdc
+SHA256: 07579bb8da41f7f96514ea71ab832c79fedbe03d2e945485bb29f9543b500517
+SHA512: 85429ed9c11120384ddbf08d98684c5f2af3754ddbb3d7ad875adfcdd776b550351c6da90a98a19f97350eb42bfd38114d7a349beaf4cbf3523b131027e2227f
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-main
+Priority: extra
+Section: optional
+Installed-Size: 162687
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.31.0
+Depends: staker-repo
+Conflicts: elrond-test, elrond-dev
+Filename: pool/main/e/elrond-main/elrond-main_1.3.31.0_amd64.deb
+Size: 24612080
+MD5sum: 0fa8598bd28540013aabe9641565d63c
+SHA1: be85589f7395c9c079c0937cf2ac0b2be53fd0ee
+SHA256: 4bb3a0d89de9df604ca2b60664f2627509cf8a4ef0f945d2e8d7397e5fe55250
+SHA512: 67593696f60ca0c44bfd6b8fda293de5bc87337cf06fe1183255a8b7e95ae2ccab3a83fab248735720445707977fa18e1b15de925259ec2edc2f1a9f0c116dd5
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-test
+Priority: extra
+Section: optional
+Installed-Size: 142793
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.37.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-dev
+Filename: pool/main/e/elrond-test/elrond-test_1.3.37.0_amd64.deb
+Size: 22372784
+MD5sum: f76d46f5c6b511421da7ec700e151e4b
+SHA1: aadeec73ce5fabc6178b7a8cce06cc3ca45f9f6e
+SHA256: b75c4e7aa784188412f215972d62f5f16e5754446da40dad883a97522b9418fc
+SHA512: 8bf04a8a5acdb929a547ccf9e9314b166384f85f3524e25a7e5c13a9fa04158af262892a32a45be9cef91d27b2b1f05281d41fcf5326c7d8bfbe8d6f4c14cb6a
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-test
+Priority: extra
+Section: optional
+Installed-Size: 165863
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.36.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-dev
+Filename: pool/main/e/elrond-test/elrond-test_1.3.36.0_amd64.deb
+Size: 24195232
+MD5sum: f0a68195ff033d6e84a0876f004a6f8e
+SHA1: 0bc47e8ec930502f9ee61fbcf343c134e6af8537
+SHA256: 34a88d343c4ff7a958a725f9c301b29f21d541cd2fa1f02ffa7f3235b0c90fb9
+SHA512: 0d04bb1889d470cbdac84adb977829ac7f9281c1d41ea0142ab4cc42dffebb2a2444f8a53d2157471300511f34682d637761c54b6f1ac0969bc24b37ab5613c1
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-test
+Priority: extra
+Section: optional
+Installed-Size: 162738
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.34.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-dev
+Filename: pool/main/e/elrond-test/elrond-test_1.3.34.0_amd64.deb
+Size: 24594488
+MD5sum: 09588cdc0f326e913e214b9178552729
+SHA1: f6bf9e009085b845a03ac2060ba69a392c5d89fc
+SHA256: 055a5a6af412e85bc7629031dbba5210ee083b76157023aa220789b6a90a7c7a
+SHA512: bd10a9b7b3114d8c5149d903d53d59a3a3745ea08a15d5a4c4183a8fcf2fbf267b2b8a1bf4a5cf1565274369dfeb8c9b2e2574f3875372b30f2f549242452cd7
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: elrond-test
+Priority: extra
+Section: optional
+Installed-Size: 162738
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.33.0
+Depends: staker-repo
+Conflicts: elrond-main, elrond-dev
+Filename: pool/main/e/elrond-test/elrond-test_1.3.33.0_amd64.deb
+Size: 24600696
+MD5sum: 44825631e116dc6e70a7e7e3aee287b2
+SHA1: 972f67e6f746017bc2eeed0ca5e24ef0c04e441c
+SHA256: 4ecef8b3ba7b004321782a12bcba9ff017b6b26e7d224a9f8111e475e42ea281
+SHA512: b2e4b045432241cb2444eaf804d52db851c151ddfe026151a42eed0eb17abab45b32e1dd4c9384bfae297813ec89feec3887c338b6af277d9c72b9cc8509682d
+Description: Elrond Services - node and proxy + tools (3rd party package build)
+Homepage: https://mr.staker.ltd/
+License: GPLv3
+
+Package: hugo
+Priority: optional
+Section: optional
+Installed-Size: 54872
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.111.3
+Depends: staker-repo
+Filename: pool/main/h/hugo/hugo_0.111.3_amd64.deb
+Size: 12670710
+MD5sum: ad099d719aeac48453e5b6b704271b84
+SHA1: cbc670815a454235e636539505d1b924cca4543d
+SHA256: 020b952d31bc0aba9ea07c2bf0fd4fef566ed707a5e720ed4cd41686dec9d737
+SHA512: 8532bd16c7a4815ccf8ae7009737dafcc3fa5da440283820cd6290ab687f6b537f14e6160c3a0988aea13cd0375eaea249001f1ecc5a45b588674f414e11dd68
+Description: A Fast and Flexible Static Site Generator
+Homepage: https://github.com/gohugoio/hugo
+License: Apache License 2.0
+
+Package: hugo
+Priority: extra
+Section: optional
+Installed-Size: 54839
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.100.1
+Depends: staker-repo
+Filename: pool/main/h/hugo/hugo_0.100.1_amd64.deb
+Size: 12627894
+MD5sum: 72f9765e09c88e3cad9f386e09dd9527
+SHA1: 2d7dc8baa098cfd0fe7690c8722728e3adec3c7d
+SHA256: 7a6200cc55613ed953e3cf9b4082e1879969f764b36e90ea039586114a46f582
+SHA512: 34526c00be7e0cef872e79e7f49886e5ee9fd16b2aec4203d06658b2773d6c0c5f3232999ea290493e4435e49955d752a9859ff2330ad545ebcde5172b2d9c04
+Description: A Fast and Flexible Static Site Generator
+Homepage: https://github.com/gohugoio/hugo
+License: Apache License 2.0
+
+Package: hugo
+Priority: extra
+Section: optional
+Installed-Size: 52267
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.95.0
+Depends: staker-repo
+Filename: pool/main/h/hugo/hugo_0.95.0_amd64.deb
+Size: 12100310
+MD5sum: 73d2ffcc6aee4b741f9c121efe014e41
+SHA1: e6af9600f790852f28c7210d723b3e1ad21dcdba
+SHA256: 875f448736d5d01053c6b41e9d5e78e6c747db7d30e9ab7206a0b9bf3eb0fc0a
+SHA512: 27d1146e9f13b654fe60edb13aad6cc71e273dac65c0584a889463785fea9823636e5c5f94d9d1f50932d0a719761b5c21afc33f4ce99e29b2d314b7a9e74118
+Description: A Fast and Flexible Static Site Generator
+Homepage: https://github.com/gohugoio/hugo
+License: Apache License 2.0
+
+Package: libcreaterepo-dev
+Priority: optional
+Section: optional
+Installed-Size: 139
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.20.1
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm9, libcreaterepo0
+Filename: pool/main/libc/libcreaterepo-dev/libcreaterepo-dev_0.20.1_amd64.deb
+Size: 31126
+MD5sum: df83f476c627364696be166776b4dcdd
+SHA1: 41f2f7a13fc4c547a58228888dce4f9dfc2739a5
+SHA256: ee594823d59ee69e4e96d75c33075892386a29f7ba06866a6fac39338a7362c8
+SHA512: f0f666ca2b01155401ffd5d67a2ea2179324d7de59501e55ff0d32e94320465179cda979f80937db0c279e91f302f6ba5685fff09eb8b318bafce96190b3c5e4
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: libcreaterepo-dev
+Priority: extra
+Section: optional
+Installed-Size: 943
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.19.0
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm8, libcreaterepo0
+Filename: pool/main/libc/libcreaterepo-dev/libcreaterepo-dev_0.19.0_amd64.deb
+Size: 253606
+MD5sum: 3c4d9d0f64213a2cb4c168984e57aae2
+SHA1: ea77fb09af09867ea4da00f46c1f49fed29b8b5c
+SHA256: 77067d6c2d8a92c90ed8ef77961e9ce123e6b4124385138f69a6ae60185fd71e
+SHA512: 887222de7a78f157da63429feaa5d222d956545b01b482fd00237497c36d2582bc59b5a08b36b865935e6af4e86c30fb8cb877d388f3e8535d345bbc7b4ecc40
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: libcreaterepo-dev
+Priority: extra
+Section: optional
+Installed-Size: 943
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.18.0
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm8, libcreaterepo0
+Filename: pool/main/libc/libcreaterepo-dev/libcreaterepo-dev_0.18.0_amd64.deb
+Size: 253414
+MD5sum: 9592f08e9904b5c37ef0cffc7f5f7466
+SHA1: 2e5c68077d12dd46378ba1ee4ff20f02fbb8be58
+SHA256: 167916ec0331b49b395117a01404792d3169086a51fff6859db580d3487927da
+SHA512: 06e2dff0e58ef73b46ff234568a861471891a6ab8976f9aeea3202d4d39395ccea3fe8ca0b850b3804377e9470248f4740e370288bf950eae975de60a4362e1f
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: libcreaterepo0
+Priority: optional
+Section: optional
+Installed-Size: 1445
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.20.1
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm9
+Filename: pool/main/libc/libcreaterepo0/libcreaterepo0_0.20.1_amd64.deb
+Size: 574398
+MD5sum: c001bff864d6a615b93e457d147a70bb
+SHA1: 50e83d52abadf750d14348196ace4ce85676115f
+SHA256: 19ed420c5c28eef87804da864335504dc9c8f4170a1b5b8135602d4c4d291608
+SHA512: 2a89d7892ce4ae25ad7697a52f69ef03b80431ea30dad490efab5b519d73bedcc7f94c61ef76e155e9ec7ee25c50b185e97b2c87afc7eae6d72aac08e5d2c612
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: libcreaterepo0
+Priority: extra
+Section: optional
+Installed-Size: 2007
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.19.0
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm8
+Filename: pool/main/libc/libcreaterepo0/libcreaterepo0_0.19.0_amd64.deb
+Size: 643772
+MD5sum: 37372b27b130bd1928fd0512c4b5efd4
+SHA1: badb769104df8f37bc02b90b7e269a1d545dfd69
+SHA256: 87d8abd31c9272b2cbd53401ae038da1b629f8f708edf40b97d781df4f194df8
+SHA512: a27a0d2d3b7d214e72e10c2a147050b16b7618305ede1c655bb6d7202ae0c7c063684c60294b20ec0ff003d552570cc451f967ce3c4a44000d3f26b5864d8dd9
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: libcreaterepo0
+Priority: extra
+Section: optional
+Installed-Size: 2006
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 0.18.0
+Depends: libzck1, libmodulemd2, libc6, libglib2.0-0, libpcre3, libffi7, librpm8
+Filename: pool/main/libc/libcreaterepo0/libcreaterepo0_0.18.0_amd64.deb
+Size: 643554
+MD5sum: a7e3edb638d4bc45cf4baf48068e9bf0
+SHA1: 31a6a53eb59945289c074ab076ef35453e169d21
+SHA256: 936ccb301aa05cbac05870840ce887d1f4af06070b58b51faecf5e5c5fee3488
+SHA512: 2df5cb84e94935496bd4acf8e8dcfaf0c6c1204d586201cacc91779ce19cc46df2697264cf7c6b82edb23155ed6eaacbd46147746208f8d2dbc22d69efab8707
+Description: C implementation of createrepo
+Homepage: https://github.com/rpm-software-management/createrepo_c
+License: GPLv2
+
+Package: libmodulemd-dev
+Priority: extra
+Section: optional
+Installed-Size: 1003
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.14.0
+Depends: libc6, libglib2.0-0, libffi7, libpcre3, libmagic1, librpmio8, libyaml-0-2, liblzma5, libbz2-1.0, zlib1g, libnss3, libelf1, libpopt0, libzstd1, liblua5.2-0, libnspr4, libmodulemd2
+Filename: pool/main/libm/libmodulemd-dev/libmodulemd-dev_2.14.0_amd64.deb
+Size: 103566
+MD5sum: 38a18aa4bf23134d8086807279d5385a
+SHA1: dfd0d08e8382f2a6cecaa523c294526a868b7c72
+SHA256: bc09cff9d001d0115076ae0b16ae0a07f4f9c727b3bcf8116eea19c230a0f12f
+SHA512: 6be9a5710c5c3e086c1d8372acf6c762db906bb995059829aa7f40dd5a3a29be86a92b5509b2e873a88b461bc7ee5867c5c7c25fa6a1b816d76c71834b414e8f
+Description: C Library for manipulating module metadata files
+Homepage: https://github.com/fedora-modularity/libmodulemd/
+License: MIT
+
+Package: libmodulemd-dev
+Priority: extra
+Section: optional
+Installed-Size: 994
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.13.0
+Depends: libc6, libglib2.0-0, libffi7, libpcre3, libmagic1, librpmio8, libyaml-0-2, liblzma5, libbz2-1.0, zlib1g, libnss3, libelf1, libpopt0, libzstd1, liblua5.2-0, libnspr4, libmodulemd2
+Filename: pool/main/libm/libmodulemd-dev/libmodulemd-dev_2.13.0_amd64.deb
+Size: 102002
+MD5sum: d4f1e52bbb71f11376868e0674bd3194
+SHA1: 167371eda59e317829dd330fe7447122f8323903
+SHA256: 94e2a135f620e6939809e3623616dff18ff095e71965ef87bbcb90b7d4ff2dfd
+SHA512: 997195504826b3d394746c1fdf66b546bf79e21c46a68c6602bcc41d4a6231f7ec6ae8fcc79e50c73efcaa68c97080abc1f24cf77b5da70409267152ef1ffb2f
+Description: C Library for manipulating module metadata files
+Homepage: https://github.com/fedora-modularity/libmodulemd/
+License: MIT
+
+Package: libmodulemd2
+Priority: extra
+Section: optional
+Installed-Size: 2721
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.14.0
+Depends: libc6, libglib2.0-0, libffi7, libpcre3, libmagic1, librpmio8, libyaml-0-2, liblzma5, libbz2-1.0, zlib1g, libnss3, libelf1, libpopt0, libzstd1, liblua5.2-0, libnspr4
+Filename: pool/main/libm/libmodulemd2/libmodulemd2_2.14.0_amd64.deb
+Size: 889372
+MD5sum: 64400dff65cdd74f226471fd5d24430c
+SHA1: 7c8c39e08c422fc8281aff9b132f8f3104d8dd71
+SHA256: 59b33167abf8a0799ca149ab1078c8fc7032e3df70b71c2a9420ac44e170742e
+SHA512: f6afd4b15aa9b8ff0a7045a854b0bca7116a6b9cbdea0f436068a417cfc96c5d1895577b7b31212601c5c4fa0ab302143d9b037686cee8e1bfaee75ed2078dec
+Description: C Library for manipulating module metadata files
+Homepage: https://github.com/fedora-modularity/libmodulemd/
+License: MIT
+
+Package: libmodulemd2
+Priority: extra
+Section: optional
+Installed-Size: 2705
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.13.0
+Depends: libc6, libglib2.0-0, libffi7, libpcre3, libmagic1, librpmio8, libyaml-0-2, liblzma5, libbz2-1.0, zlib1g, libnss3, libelf1, libpopt0, libzstd1, liblua5.2-0, libnspr4
+Filename: pool/main/libm/libmodulemd2/libmodulemd2_2.13.0_amd64.deb
+Size: 885868
+MD5sum: 92c11b47cf47b825ec50bcd944d0c81f
+SHA1: 9842356a1f2b4455095b2fbd2235a33d6849b432
+SHA256: ba7c67b86482f937166afa276d3d2fe3b97e45b252bc76e3df18628c7aca547d
+SHA512: 1a9c8a4ee1b57be6a4b1336328ad70a421078f630fca0dbbece02aa41388adfeeb1066b26909f75e8aa25f7cd8f5ad92482c0be2d48f0b27312830a48aeb53e6
+Description: C Library for manipulating module metadata files
+Homepage: https://github.com/fedora-modularity/libmodulemd/
+License: MIT
+
+Package: libnvpair3
+Priority: optional
+Section: optional
+Installed-Size: 121
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: libc6 (>= 2.7), libtirpc3 (>= 1.0.2), libc6, staker-repo
+Filename: pool/main/libn/libnvpair3/libnvpair3_2.1.11-1_amd64.deb
+Size: 33132
+MD5sum: ebcc11966cd8e7984d621ea2cbae9032
+SHA1: 077ca5c79a71b251df2e7f0810fb820580114774
+SHA256: a9a2e5688b6c95e9faae58930da97a066ea01b53d9fd5f312e1456c876ec5850
+SHA512: 42ad72302c59129b917ceff44e8439b6839566bdc74e383c87163f59679e018d97da9dad1c1f4d461c3b9093273db27e35c08df7505cdb46ef355280f7c46408
+Description: Solaris name-value library for Linux
+ This package contains routines for packing and unpacking name-value
+ pairs.  This functionality is used to portably transport data across
+ process boundaries, between kernel and user space, and can be used
+ to write self describing data structures on disk.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libnvpair3
+Priority: extra
+Section: optional
+Installed-Size: 426
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: libc6 (>= 2.7), libc6, staker-repo
+Filename: pool/main/libn/libnvpair3/libnvpair3_2.1.5-1_amd64.deb
+Size: 105060
+MD5sum: 2a8f2342b87039ac443d89e1754d9045
+SHA1: 36e104854810470c3d856e9cabc9bb9eefd1ab4c
+SHA256: 82b8a79fa5f4479be378a0123de9f30ea41d03ba9b1a296c1f92e8c95e4eb3b0
+SHA512: 17976a8b318a7f9dd8d8b40f794960f96a1c51d7c871155dba23a80e6153fdec6a53dcb3dfee377e26b56d5a0afdebbe65a7c3777e80c3c2c4677e4ab6bb85fc
+Description: Solaris name-value library for Linux
+ This package contains routines for packing and unpacking name-value
+ pairs.  This functionality is used to portably transport data across
+ process boundaries, between kernel and user space, and can be used
+ to write self describing data structures on disk.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libnvpair3
+Priority: extra
+Section: optional
+Installed-Size: 426
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: libc6 (>= 2.7), libc6, staker-repo
+Filename: pool/main/libn/libnvpair3/libnvpair3_2.1.4-1_amd64.deb
+Size: 105096
+MD5sum: 4c1e5a0ba5fa7e57aaf0e0f557ffe43a
+SHA1: e1196050a530401759fe58f782d75ad08642ebc0
+SHA256: 7de826ab3a6ceb4365259aaed72ca4fc683c55ee8e3c02acd23231712fcba16a
+SHA512: 0fde39e1dfd08204bb8f9fc4b9a550a856600c95f2d1e0128a3d75f74bf1dfeca137b366632c500aad077a5ce774f795ce8ae0654376e841347a02a63b25aab3
+Description: Solaris name-value library for Linux
+ This package contains routines for packing and unpacking name-value
+ pairs.  This functionality is used to portably transport data across
+ process boundaries, between kernel and user space, and can be used
+ to write self describing data structures on disk.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libnvpair3
+Priority: extra
+Section: optional
+Installed-Size: 426
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: libc6 (>= 2.7), libc6, staker-repo
+Filename: pool/main/libn/libnvpair3/libnvpair3_2.1.3-1_amd64.deb
+Size: 104776
+MD5sum: f4eb254fccd1bb7aba91a617435a923b
+SHA1: 69da22f4c44dbb0cd79271b8613759bcecb4aa1e
+SHA256: deb2f61d1a4efeb2027300e7cd144e918e15e68dc3c726a50381ba3ee9fbad91
+SHA512: ec3c881055bccd34f2394d01e02555b9cb35a31ffd6399e7a9db4e9a600717af70cbf5fb6250746f35a48c354055f8d1fa2e3e491b2f26d7856837933721a976
+Description: Solaris name-value library for Linux
+ This package contains routines for packing and unpacking name-value
+ pairs.  This functionality is used to portably transport data across
+ process boundaries, between kernel and user space, and can be used
+ to write self describing data structures on disk.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libuutil3
+Priority: optional
+Section: optional
+Installed-Size: 83
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: libc6 (>= 2.34), libc6, staker-repo
+Filename: pool/main/libu/libuutil3/libuutil3_2.1.11-1_amd64.deb
+Size: 25996
+MD5sum: 20853eb53214bbf03e5167c5267852cc
+SHA1: e506b575d5bd57cb20c0912fbf96d3fcb7fcd159
+SHA256: 4bb46887bf4bcfc702dd03f0e4312e7a02ca1e50a7c6d6772db1bc8b727f2cc0
+SHA512: 30b48b9b829d8324c6bc57dc4cbf5eb72c67393288b9ab8337b5f2e438d18534d416d4fbfb837534cf75b6cae94e7482c7cce66ec52c08690a95329f88dfc16f
+Description: Solaris userland utility library for Linux
+ This library provides a variety of compatibility functions for OpenZFS:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libuutil3
+Priority: extra
+Section: optional
+Installed-Size: 260
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: libc6 (>= 2.17), libc6, staker-repo
+Filename: pool/main/libu/libuutil3/libuutil3_2.1.5-1_amd64.deb
+Size: 75268
+MD5sum: 250ff46aa0788119e2442982970dfb13
+SHA1: 5c924d63f0a67ea10584cbbd61a3dbba50edd139
+SHA256: 1832b74714bae94c72e51e2d02cefdc5a5f2b7a00098b56c653ff031bbcb9be3
+SHA512: 1552748f76c773f6bebbc1fcc759003a78a83023a1766a69c969071b2b37babcb2356a1752a426f389081c6706b23d70691541252dfb34d933e9161cffd5f61a
+Description: Solaris userland utility library for Linux
+ This library provides a variety of compatibility functions for OpenZFS:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libuutil3
+Priority: extra
+Section: optional
+Installed-Size: 260
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: libc6 (>= 2.17), libc6, staker-repo
+Filename: pool/main/libu/libuutil3/libuutil3_2.1.4-1_amd64.deb
+Size: 75376
+MD5sum: 0a46195f5f4c7b9c5d598d516363ac92
+SHA1: 8cbc6110cb9166c7c81457e9e34b83658decf186
+SHA256: 78c74a79c8694c4a22958ffc28d23a1f103d7b6242f5ef3c82c70cd3631cab4e
+SHA512: b73f400cb029f13fa06e56641c7f7454d60565e669b7a0c549cc664be78503dfb43e0f6a3be478f7a03c252dd308b53beb0d0ff2b3f094f0bf7723c4cd5df1ba
+Description: Solaris userland utility library for Linux
+ This library provides a variety of compatibility functions for OpenZFS:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libuutil3
+Priority: extra
+Section: optional
+Installed-Size: 260
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: libc6 (>= 2.17), libc6, staker-repo
+Filename: pool/main/libu/libuutil3/libuutil3_2.1.3-1_amd64.deb
+Size: 75656
+MD5sum: 64f8842341030c76a5b4e59a497f6856
+SHA1: 1d7110990d3995626a646d086f6a2a5c63254729
+SHA256: 87e004c5ac89afe6e5d466eb3515e50b0b1295e74268efa55318970facff9ef7
+SHA512: c9e324a981977f8ae1115ad8d79c0b8527fae1def58074c4c14afd549b71232de175074dad4836e99f26de933d35b8849f230e52704ca689f2f6159b4493fe2c
+Description: Solaris userland utility library for Linux
+ This library provides a variety of compatibility functions for OpenZFS:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzck-dev
+Priority: optional
+Section: optional
+Installed-Size: 16
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.0
+Depends: staker-repo, libc6, libzstd1, libssl3, libzck1
+Filename: pool/main/libz/libzck-dev/libzck-dev_1.3.0_amd64.deb
+Size: 6452
+MD5sum: 05500b5dfef897cf6ba1105120cff0da
+SHA1: 5403c8c2224ed7b8d52d4f183bcdf5fb787718f5
+SHA256: dfb1dfa136dbb0122fa69e53b2522c0a7215806398fd90a909c87928890eec13
+SHA512: 68f16f845929ff418e595e879a463b2e30b30be94039b3aa414c2c3382171d08313e7f9feec637cbe98d72e2fd8d984272ec9ae2b0161db0b146927e07690b89
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: libzck-dev
+Priority: extra
+Section: optional
+Installed-Size: 16
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.2.2
+Depends: staker-repo, libc6, libzstd1, libssl1.1, libzck1
+Filename: pool/main/libz/libzck-dev/libzck-dev_1.2.2_amd64.deb
+Size: 6422
+MD5sum: 2024e9ecfab113fe84280f580eef6e78
+SHA1: 35414b1f8ecac25b2be816f01526eecc5db1de1a
+SHA256: e40c99640274a87518b2aa70f5f1176eab2e4b75dfa7b14d7746a3006b0bc916
+SHA512: 86abae571c39a062a28cdb482f8ddaf20bb3e9573f218968a6de079e19b7b0f46676f5ddbd68396af558eb8194d973e14d8292e08f630a5c90927784e6eb1a7f
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: libzck-dev
+Priority: extra
+Section: optional
+Installed-Size: 16
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.2.1
+Depends: staker-repo, libc6, libzstd1, libssl1.1, libzck1
+Filename: pool/main/libz/libzck-dev/libzck-dev_1.2.1_amd64.deb
+Size: 6416
+MD5sum: cff0b638181fd745681c375676b4d621
+SHA1: c9b0ab0406fded5f8c69040c5ccdab3b02044851
+SHA256: f90f7a57516a0bc8ba88996f775a7b8441813bd8deac15ec28b64370691cebd8
+SHA512: 3673a72737585bcb9a30e13af6599a984f5d9005d4ebb773dc3ed8933b077fd25b46d6a706aa95b344149291ff7148d0dbe7a896bca40f798e5e364809aa24e7
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: libzck1
+Priority: optional
+Section: optional
+Installed-Size: 269
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.0
+Depends: staker-repo, libc6, libzstd1, libssl3
+Filename: pool/main/libz/libzck1/libzck1_1.3.0_amd64.deb
+Size: 95562
+MD5sum: 7010be73a671876a4e311a2b6b516899
+SHA1: df6fa3a56df9a33aaeaf89a4ee6f53e787d2267a
+SHA256: a97f1a5ec044c45d0ec438c2d6eddb7c825fb83282618735e1121192203f5bc1
+SHA512: e9b9ba9c83fc57aea837ef16add440db89caddeb216b684e535f72659080ef7ea2bdfe584a2bd8259dee01f706b028f7df13cd769f2aed331dd756dea5dda526
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: libzck1
+Priority: extra
+Section: optional
+Installed-Size: 276
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.2.2
+Depends: staker-repo, libc6, libzstd1, libssl1.1
+Filename: pool/main/libz/libzck1/libzck1_1.2.2_amd64.deb
+Size: 98882
+MD5sum: 530f9a06b684fa1a9438be8b3e80318d
+SHA1: 70b6270c9976c10a0d8f2d2b0f4e6d41b7fb634b
+SHA256: 4bed0c3095c333746a97654d7663733171a07fb52887d70a3a09883841021aa6
+SHA512: 7ded56c4412b430e7d80edc69b9284f5f674856faba0c76be9cb3286627227cb0ded95df9433f7b085240ce07c93d0d986c794e9fdf4e7bcb1a908cbadbe96bf
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: libzck1
+Priority: extra
+Section: optional
+Installed-Size: 276
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.2.1
+Depends: staker-repo, libc6, libzstd1, libssl1.1
+Filename: pool/main/libz/libzck1/libzck1_1.2.1_amd64.deb
+Size: 98832
+MD5sum: 52bc56bd4a25407942be4a76258d470f
+SHA1: 8b5630d6aa6550eefd785e28f4da5c58784f8672
+SHA256: d3bbaaab37f200dc32bd13ebf9ea125aa29128ecde0551222f9948afb8546428
+SHA512: 628b45ee6a0d033965835282b6d65cc248cbdcdf55c5372b9a99386ecc718f4564cfced1c1fa6788d3341b9790b4d73d2633fba202c1d3c63766967c3e0cfa22
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: libzfs5
+Priority: optional
+Section: optional
+Installed-Size: 646
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: libssl3, zlib1g, libuuid1, libblkid1, libudev1, libc6, zfs-dkms, staker-repo
+Filename: pool/main/libz/libzfs5/libzfs5_2.1.11-1_amd64.deb
+Size: 215416
+MD5sum: 54742b93e58946c5d4b54e06718e82ad
+SHA1: 58cd8a9cb76afd88ef8a60ec362495faa57a495a
+SHA256: 1c7ab2fc5db4a9be126d7b5aeb25c2a805e4af9f50bdd92a649395aa39ca1478
+SHA512: 4a1761c25b1c5dc47563c03c4036ee5a3a0fa296b7fbece19977dbb466fd2aac01377b7fbdf05aea8011e74b404c498b583b8ffbe1a70feae0fc67cf50466b79
+Description: Native ZFS filesystem library for Linux
+ This package provides support for managing ZFS filesystems
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5
+Priority: extra
+Section: optional
+Installed-Size: 2862
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: libssl1.1, zlib1g, libuuid1, libblkid1, libudev1, libc6, zfs-dkms, staker-repo
+Filename: pool/main/libz/libzfs5/libzfs5_2.1.5-1_amd64.deb
+Size: 826336
+MD5sum: f1209df96c1d7083413f165f85de77fd
+SHA1: 2f6da0e4c5ac08c70e9b7a04828046ce6563cf3d
+SHA256: 5464011c0b2ac61e442c8dfe05e04fd0839b96404d81377ddb28b37a6182f3a1
+SHA512: daa853ba096031796d073301c2e4b5646470b4406613a09b09167faa9cedab85bfc62ed2ae6bbd20d4ba3ce8fe5543c76b3696cde969fce1b5b0104688259390
+Description: Native ZFS filesystem library for Linux
+ This package provides support for managing ZFS filesystems
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5
+Priority: extra
+Section: optional
+Installed-Size: 2862
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: libssl1.1, zlib1g, libuuid1, libblkid1, libudev1, libc6, zfs-dkms, staker-repo
+Filename: pool/main/libz/libzfs5/libzfs5_2.1.4-1_amd64.deb
+Size: 829016
+MD5sum: f47d19de43f6c545339e1d58b6bd253f
+SHA1: c4aadeff4d612a06f197985140bb5a462ed6d6ca
+SHA256: f07cd50dcdd40f561aa721fe9e67af50d6593117406f5fdc580e54cce4ec0825
+SHA512: 274d55ab3995557f2d3a55bf7d91a0961a6772763406472ebc53f17f8fbb3d452983de3cf7b52b77e40f22c81e717816f7a44a0a6d531ac3a51fa06742ffc790
+Description: Native ZFS filesystem library for Linux
+ This package provides support for managing ZFS filesystems
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5
+Priority: extra
+Section: optional
+Installed-Size: 2861
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: libssl1.1, zlib1g, libuuid1, libblkid1, libudev1, libc6, zfs-dkms, staker-repo
+Filename: pool/main/libz/libzfs5/libzfs5_2.1.3-1_amd64.deb
+Size: 829224
+MD5sum: 9e44c560e493643c5ebff93a99325841
+SHA1: 32bdc0a13dfd4e5c33bb0223023bebff89e01446
+SHA256: c87a9197e58b64c8d4f8b43982c3b0f52b841bbb6148749c49ccb0fb60f7a390
+SHA512: 5253c6f32eb2304b044ba60e5ed028158b5528502ecde505607f93edf4d45dada06bb81b57d072307b4ac23e2564ff20721623562687ee6e39b0720e46ab70cc
+Description: Native ZFS filesystem library for Linux
+ This package provides support for managing ZFS filesystems
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5-dev
+Priority: optional
+Section: optional
+Installed-Size: 2739
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: libzfs5, staker-repo
+Filename: pool/main/libz/libzfs5-dev/libzfs5-dev_2.1.11-1_amd64.deb
+Size: 315826
+MD5sum: a5d6ac4a7c630e7331b4c184422beb68
+SHA1: bcd9e57fff89eb9d042be84cf02bed758fcf21ee
+SHA256: 8bb3c161de25d6bc5f49b37e4954f2bf5b97d89ccbdd69868b6576de0a29ca89
+SHA512: 784d09ee9c14a96ff3cfb64df6666440b428ac6a8068476373e778f579b39792e4998af49e70d1ab4f5918c4be386382f313f9f3674183b5834936d3765634ad
+Description: Development headers
+ This package contains the header files needed for building additional
+ applications against the ZFS libraries.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5-devel
+Priority: extra
+Section: optional
+Installed-Size: 2736
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: libzfs5, staker-repo
+Filename: pool/main/libz/libzfs5-devel/libzfs5-devel_2.1.5-1_amd64.deb
+Size: 314898
+MD5sum: 0d44500bd70facb0482fde29949ef586
+SHA1: b98ab97e5155ad41f91822502a2b2b6cccb76560
+SHA256: e2ebdf55b96a32dd56de26ecaa7f4503c0795977a7cf586e9a84ea012820fd7a
+SHA512: 9a095aa84559ea7b4b65c496cefe3795192e17df3a7d087c9559c54c337e716727f8cad86ef27c3b80ae778c80f559901304ff8f9023910ca6c3d7bc15e52f9d
+Description: Development headers
+ This package contains the header files needed for building additional
+ applications against the ZFS libraries.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5-devel
+Priority: extra
+Section: optional
+Installed-Size: 2736
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: libzfs5, staker-repo
+Filename: pool/main/libz/libzfs5-devel/libzfs5-devel_2.1.4-1_amd64.deb
+Size: 313542
+MD5sum: 3611cec11dee02b9a2a04f86b4ee9062
+SHA1: 1de77ecc9bc9101068cd87776479c1737bc6e3df
+SHA256: aa46e4cf134fc804f32bb36b4021c6bef27870f7a224fe6c75a049a628a9b3ae
+SHA512: a753c3ee4c6d14a23db4991f37285fe88166caa476ecf76f1e5f7de94b4d850cc546b06bbe9979a14ab8b9e984474057c632b4a27d049d59f900b39e48c63840
+Description: Development headers
+ This package contains the header files needed for building additional
+ applications against the ZFS libraries.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzfs5-devel
+Priority: extra
+Section: optional
+Installed-Size: 2736
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: libzfs5, staker-repo
+Filename: pool/main/libz/libzfs5-devel/libzfs5-devel_2.1.3-1_amd64.deb
+Size: 313298
+MD5sum: e0730707ebe67bbd812f6d82f2277c8a
+SHA1: e2396f26cb13531281a81817f87517fb04d9857b
+SHA256: 5f13aa279283b5bac9d05a3233b74c251ef14bd3bf8adf44a01c4840a6d83453
+SHA512: e71dcf522813948fa32699b5223933bfebb2597a369820435a385826c17f765e1151ca488c8f835601ebb091196548a993bc15c0f66a79af45a91feb38bef593
+Description: Development headers
+ This package contains the header files needed for building additional
+ applications against the ZFS libraries.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzpool5
+Priority: optional
+Section: optional
+Installed-Size: 4346
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: libc6, libzfs5, libnvpair3, libuuid1, libblkid1, libudev1, staker-repo
+Filename: pool/main/libz/libzpool5/libzpool5_2.1.11-1_amd64.deb
+Size: 1295870
+MD5sum: 4db05ebf19ef85de1b12121db4c99aa2
+SHA1: 5075cf6b58ebb6f3250c5e8187145d5e4ac2f3b1
+SHA256: 374208ff59801cd5266974733272a08fd2849ccf90da028866320a103ed305c2
+SHA512: c1f109cd5d2c0676ba8cbfb5f09c396e3bf2d9cb9cb4496df7b4f6cdd348cf4ff9c5cf4630bfa78f558da649f930f20cb8effa78d17bc0945c658243cbf9286c
+Description: Native ZFS pool library for Linux
+ This package contains the zpool library, which provides support
+ for managing zpools
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzpool5
+Priority: extra
+Section: optional
+Installed-Size: 23630
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: libc6, libzfs5, libnvpair3, libuuid1, libblkid1, libudev1, staker-repo
+Filename: pool/main/libz/libzpool5/libzpool5_2.1.5-1_amd64.deb
+Size: 5282342
+MD5sum: 779909aadb5efe8a9493736450889dd0
+SHA1: 1d350df77be42ebf8e5890c87c42eb880f90c952
+SHA256: b1d16037fd3b36b6edd2f81e1e79fcf595a10ef98a3f1dbc0158405471aefde9
+SHA512: d8715d3c07fee840993ec3479c935227f481ca908f4b58fc80473750e9a97c5ec30ac95b85c232f0c1700e2ed41846198323002c9a948dff43c97d7b3c8e1c3c
+Description: Native ZFS pool library for Linux
+ This package contains the zpool library, which provides support
+ for managing zpools
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzpool5
+Priority: extra
+Section: optional
+Installed-Size: 23630
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: libc6, libzfs5, libnvpair3, libuuid1, libblkid1, libudev1, staker-repo
+Filename: pool/main/libz/libzpool5/libzpool5_2.1.4-1_amd64.deb
+Size: 5284238
+MD5sum: 5553b3e8028bb234ea7e083848fbba78
+SHA1: 1bcb4d39246b8a771ba5ab8733d8c0b2994e1d15
+SHA256: e8ecbe08a551c9d316e51378df7947fc541d6f1d3e98aabface95a8545550ed2
+SHA512: 845b3fc3232ad0adf44e4b10ebea1fdb96876c1292d4918e00f3ae5208923529301118a9d44961d8dc734f6e61993b212a371dc1cb7f4d1e0b08badac54db594
+Description: Native ZFS pool library for Linux
+ This package contains the zpool library, which provides support
+ for managing zpools
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: libzpool5
+Priority: extra
+Section: optional
+Installed-Size: 23630
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: libc6, libzfs5, libnvpair3, libuuid1, libblkid1, libudev1, staker-repo
+Filename: pool/main/libz/libzpool5/libzpool5_2.1.3-1_amd64.deb
+Size: 5282438
+MD5sum: 5893e27f0036b44801ba86b9fe2ff1b7
+SHA1: edbb5d96917a58258f9fefba5d0754377bdad0db
+SHA256: fa71d0487c29384a9850ee9b9dc6af56a641dd47ee698128fafbb09b14eced67
+SHA512: 68f3822b7eada8ec483484ff1631023e36fb1a0acb469b94f52a15ba45487b3db4b830472ac520f96c38ee0e79e69f942af534b953d0ce030062a8a95f62ddf7
+Description: Native ZFS pool library for Linux
+ This package contains the zpool library, which provides support
+ for managing zpools
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: modulemd
+Priority: extra
+Section: optional
+Installed-Size: 2863
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.14.0
+Depends: libc6, libglib2.0-0, libffi7, libpcre3, libmagic1, librpmio8, libyaml-0-2, liblzma5, libbz2-1.0, zlib1g, libnss3, libelf1, libpopt0, libzstd1, liblua5.2-0, libnspr4, libmodulemd2
+Filename: pool/main/m/modulemd/modulemd_2.14.0_amd64.deb
+Size: 252880
+MD5sum: d66ec1c46aa8b42dab5bdbcc064af705
+SHA1: 965cebeb2b84395deb2a55a1cdf0c93294f2fb44
+SHA256: b3781a086819d17c9baf30898b1d64a68a4dfa2084b9acf7e2f7b03783b05c58
+SHA512: 3d0d160df65fe372b500daf74d75fb5853575bd1b9e91548d1a4abc60d60f6b987664a7845b82e27849df3b394c846de6257d8423630a025483755109ed900bb
+Description: C Library for manipulating module metadata files
+Homepage: https://github.com/fedora-modularity/libmodulemd/
+License: MIT
+
+Package: modulemd
+Priority: extra
+Section: optional
+Installed-Size: 2837
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.13.0
+Depends: libc6, libglib2.0-0, libffi7, libpcre3, libmagic1, librpmio8, libyaml-0-2, liblzma5, libbz2-1.0, zlib1g, libnss3, libelf1, libpopt0, libzstd1, liblua5.2-0, libnspr4, libmodulemd2
+Filename: pool/main/m/modulemd/modulemd_2.13.0_amd64.deb
+Size: 249130
+MD5sum: 861295edc48cf9a65833fd84bf73ee00
+SHA1: cc16e1d972b4c24324759161f6a9cf34000cbd0a
+SHA256: 0528e908eba4cbe747f764155fd681cbba257dbcc0c6c4e45652dec05a81ba29
+SHA512: e8479134f90704be283c30d514385b5bcdba132dbabd4be3aff70cf6ccabb8c620f00ebd4710b73416fb446594a6f11d06af11a858a2eb7e82bf5e5cb5172973
+Description: C Library for manipulating module metadata files
+Homepage: https://github.com/fedora-modularity/libmodulemd/
+License: MIT
+
+Package: python3-pyzfs
+Priority: optional
+Section: optional
+Installed-Size: 648
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: libzfs5, python3, staker-repo
+Filename: pool/main/p/python3-pyzfs/python3-pyzfs_2.1.11-1_amd64.deb
+Size: 102952
+MD5sum: 5840eb4c6f1e0ba6624baf594033e3b0
+SHA1: b6a539bd3701746d08ea6544226049a58f3f9cf0
+SHA256: 1ce635755e71f5ab851d3eaec17f5f305eae68fe5d85a2909a70f54a28dd7167
+SHA512: 24d5060fffaa196aa138d8ab61c4c904ba6daf6d1302035899cf7f71c0de5b0ac3f03483fa3fe4cb1d9d7683ac1e841866142b2f382b02ded0ec09df513df0e7
+Description: Python %{python_version} wrapper for libzfs_core
+ This package provides a python wrapper for the libzfs_core C library.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: python3-pyzfs
+Priority: extra
+Section: optional
+Installed-Size: 652
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: libzfs5, python3, staker-repo
+Filename: pool/main/p/python3-pyzfs/python3-pyzfs_2.1.5-1_amd64.deb
+Size: 101084
+MD5sum: 460e9daf7ceaaf54d03d863e2859385f
+SHA1: 8ff2eae7d220e8901b76da1fce5f5da2667c3c3a
+SHA256: 04bae4734779e63e291f8784e438761df83ddbc85f08edacaf4b4605e901bd8b
+SHA512: 446f7922fc624900e2dd56b4780f82aa7657c0e9354a89b35318feb6366335957d481f870281297c5678cef1e511ae34720d21eb33aea0f5fe7a1f3404709b77
+Description: Python 3.8 wrapper for libzfs_core
+ This package provides a python wrapper for the libzfs_core C library.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: python3-pyzfs
+Priority: extra
+Section: optional
+Installed-Size: 652
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: libzfs5, python3, staker-repo
+Filename: pool/main/p/python3-pyzfs/python3-pyzfs_2.1.4-1_amd64.deb
+Size: 101272
+MD5sum: 27ffa07234f01ca7c2bfa5c20ce8ec50
+SHA1: e8083f78f0da547ad60832f460abc144b96fea22
+SHA256: cebf2befaa07e362caa771026a967db3fd5c0f3d0df325e521805cacb44fd914
+SHA512: 4896cae83e2b2c304fde85318050a4324bd322826e82c6a875b659bfa1e9858406113d818f52e87356cac189cceedfdd096c80146553e5cacc53806de4cf31ce
+Description: Python 3.8 wrapper for libzfs_core
+ This package provides a python wrapper for the libzfs_core C library.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: python3-pyzfs
+Priority: extra
+Section: optional
+Installed-Size: 652
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: libzfs5, python3, staker-repo
+Filename: pool/main/p/python3-pyzfs/python3-pyzfs_2.1.3-1_amd64.deb
+Size: 101240
+MD5sum: fb391c01b2e25e51ecbcd8f8244a5b98
+SHA1: d32b8f8b1ce6e9ebcc1f3163a9615d6e91c899ce
+SHA256: 57362fd8ddbdfc867b210b8929dca349423c91ca5cae41d2f008311929d4f581
+SHA512: 06d8e55ff5e69b879bfccee6cde2db9279ed05a89920e3b70a75ce4d84f0d5b53bf1542e0f913012c3aa4c1332faed43faffcda7f2b5c9d38c3b159138aec4d6
+Description: Python 3.8 wrapper for libzfs_core
+ This package provides a python wrapper for the libzfs_core C library.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: staker-repo
+Priority: optional
+Section: optional
+Installed-Size: 21
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 23.04.02
+Filename: pool/main/s/staker-repo/staker-repo_23.04.02_amd64.deb
+Size: 17082
+MD5sum: 660c0cc25aae334fcaeeb7c77fcd4526
+SHA1: 0a5e827dbc9c0d5a51287df497f9dce4de570bf6
+SHA256: 68e4109e8e6c7570e8af54a32717002cbc7d3bfdc8b9dbb2489d180b614f47be
+SHA512: 72322ff86217c0b1e698b43c66d7e3a80546731515a203d959ef667b77377004d900002bd6813b5dc0ae4f83b1c1d9ac6bdfe5e1eff7e3bc821fc0396d3cf983
+Description: Repository configuration and signing keys
+Homepage: https://mr.staker.ltd
+License: MIT
+
+Package: staker-repo
+Priority: optional
+Section: optional
+Installed-Size: 21
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 23.04.01
+Filename: pool/main/s/staker-repo/staker-repo_23.04.01_amd64.deb
+Size: 17032
+MD5sum: f10c167b1eca4fdb4cb8dbe7416eb2af
+SHA1: abb74a6fbd3060566549ba4c3c9d08b73e8902ac
+SHA256: b8884cf48361fc3d7c19a07739407903f2fc7bc191710b51262752bf9707af6c
+SHA512: 5ad3f1d37496eaa73b9e34f68c52084f6fe194ea3c6323b08d2203f9c2390e0bede56cf7b8ae561941c64841a1d11a92460c5e943de78c58f902efd474416af0
+Description: Repository configuration and signing keys
+Homepage: https://mr.staker.ltd
+License: MIT
+
+Package: staker-repo
+Priority: extra
+Section: optional
+Installed-Size: 13
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 22.04.01
+Filename: pool/main/s/staker-repo/staker-repo_22.04.01_amd64.deb
+Size: 12546
+MD5sum: ad95467cc5507ecf5a0aafad20492752
+SHA1: 4f495ecf49d8f35de9593cf954e6d17e187326c6
+SHA256: 30ff15f4a6daf4c3fe5530e9535012c3b63362cf67dd843d7c90d060ce5139ad
+SHA512: df05ed7a1681f9c229bda2a0e3e905850320459dd77c266349af491d4c722af3c0adeaa4348db13ed44afcca6d1f3c0247e1f44f57f89fee9bc9c983b4a1e528
+Description: Repository configuration and signing keys
+Homepage: https://mr.staker.ltd
+License: MIT
+
+Package: staker-repo
+Priority: extra
+Section: optional
+Installed-Size: 5
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 21.04.02
+Filename: pool/main/s/staker-repo/staker-repo_21.04.02_amd64.deb
+Size: 7866
+MD5sum: e9d9688a009206ca0111334de3f34957
+SHA1: 55b3003780829cde94b2bd1e778782bf59134aec
+SHA256: 400ddfc94c673fd2d85ec99e2da74e076d22b1e9bceb3fdac1b8d21c0d51a5e6
+SHA512: f8f3aba68b1540a8833bd0f0e8e4bdb0c877afe0a5447325b0977aef5d79f45c3f21f645328c25747510c9e3b05b9fb551a2dd2de715bef7c9ce93d317080585
+Description: Repository configuration and signing keys
+Homepage: https://mr.staker.ltd
+License: MIT
+
+Package: staker-repo
+Priority: extra
+Section: optional
+Installed-Size: 5
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 21.04.01
+Filename: pool/main/s/staker-repo/staker-repo_21.04.01_amd64.deb
+Size: 7876
+MD5sum: 779a49aeec1852e6eb720ba75d96b6a9
+SHA1: 205a876cb27654c7daa5f69b528491a88d26f80c
+SHA256: 73e02963d47a7e503b3f29baeab5f61c96bba95fa85b53d40913ad72902a8a51
+SHA512: f681711f2d405ccc5aba7e3f30babfd106a13ebf4286d781a452544517d5d27b0a645b35591b9b1c6d8326fa0656549736833b755306e365917b6e74fab117bc
+Description: Repository configuration and signing keys
+Homepage: https://mr.staker.ltd
+License: MIT
+
+Package: zck
+Priority: optional
+Section: optional
+Installed-Size: 220
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.3.0
+Depends: staker-repo, libc6, libzstd1, libssl3, libzck1
+Filename: pool/main/z/zck/zck_1.3.0_amd64.deb
+Size: 67164
+MD5sum: 4c06a92e67afa681f80ce679c86ba984
+SHA1: b80193065104cdabca2f442c805df3c81d4e09f1
+SHA256: 029b06b9258195768b2393453314f2f1b3c8005c74789068a8536c80f0086875
+SHA512: aea283638599dbdde47ab57530a902c82befad06e72270663c55a795268aea0dcdfd7e1017dcce691a296b1ab1a0b3284a97e8e816a777d2dac3310079572990
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: zck
+Priority: extra
+Section: optional
+Installed-Size: 222
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.2.2
+Depends: staker-repo, libc6, libzstd1, libssl1.1, libzck1
+Filename: pool/main/z/zck/zck_1.2.2_amd64.deb
+Size: 66754
+MD5sum: 5c20e8a1a4fb0150c6d6c37990972e25
+SHA1: adb46aceb95ad5b7486e2cf033c3aaf1200536c3
+SHA256: d39e2ed4601b0e4e461f150dec4bbc8f08a7c91de8ba27551a9c32e9605ce55c
+SHA512: 4fd48bcd1fa76b4ed9e67c85b84760ad84823f79d6e2d83bb83f9fcc3035965de801218164407e8a32d14969833c5a0d141e75edce1d20a438e1a83b2d309dd1
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: zck
+Priority: extra
+Section: optional
+Installed-Size: 222
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 1.2.1
+Depends: staker-repo, libc6, libzstd1, libssl1.1, libzck1
+Filename: pool/main/z/zck/zck_1.2.1_amd64.deb
+Size: 66584
+MD5sum: 5fa99f4504b8bee6b66c39af9a052e21
+SHA1: cc928f11a3ba0f572db68793575123ffb18349bf
+SHA256: 18bbf0e5dcf36b9a6e1867ce132a65197eebf41b94bbce21c9404cabb115c53e
+SHA512: 1e2a02013a84cbd504bca4377d1497e534c44713624e00b59ed62d6ea2a8186309a24831a8c7d5b853c242e906a28226702c2e99f2b2ddd2bbf3d3af07738f16
+Description: zchunk is a compressed file format that splits the file into independent chunks
+Homepage: https://github.com/zchunk/zchunk
+License: BSD-2-Clause
+
+Package: zfs
+Priority: optional
+Section: optional
+Installed-Size: 1823
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: zfs-dkms, libnvpair3, libuutil3, libzfs5, libzpool5, staker-repo
+Filename: pool/main/z/zfs/zfs_2.1.11-1_amd64.deb
+Size: 611582
+MD5sum: c72ce09ba89908d412789cfafd6957e5
+SHA1: 9c7a2c7b9b5932f9cbf94e28ce767bdfcd77c19b
+SHA256: 2621fa5f9ff00772614c993b37447fb4f58a5a6f974e804401593c06a5f77899
+SHA512: 91f95ce4c20a2f3fb3d76a48831006717b3e2640cb42cadc87bef341267b7d6af8e1ac65a4985f913885253dd2127f00bd0452d604f871164ffa552025249c20
+Description: Commands to control the kernel modules and libraries
+ This package contains the core ZFS command line utilities.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs
+Priority: extra
+Section: optional
+Installed-Size: 4945
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: zfs-dkms, libnvpair3, libuutil3, libzfs5, libzpool5, staker-repo
+Filename: pool/main/z/zfs/zfs_2.1.5-1_amd64.deb
+Size: 1520426
+MD5sum: 7dba997b64cd01b517e5a0f207b8517d
+SHA1: adda304e056e0acab94b467121bcf6eac578e334
+SHA256: 31dc8e5adf590a3386c945207f7e7e8c453d403fa5d669febc20d737063caed8
+SHA512: eba59cf8dc4ec6256fdb3fcd8730e140525700af2f494c38b420699cbeee4b9716706baa524344855e7ba7c5e5eb47c0a58c0f2bcbde7c0d0c5bbe10fd2b1beb
+Description: Commands to control the kernel modules and libraries
+ This package contains the core ZFS command line utilities.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs
+Priority: extra
+Section: optional
+Installed-Size: 4936
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: zfs-dkms, libnvpair3, libuutil3, libzfs5, libzpool5, staker-repo
+Filename: pool/main/z/zfs/zfs_2.1.4-1_amd64.deb
+Size: 1516474
+MD5sum: c3e8c4685b408b250cf30c60a84e07fd
+SHA1: 625dd0f031260e4c2a2f5382010e2bcd662d4c6f
+SHA256: 53f56f369503eb7b79b4168230ef4944354032e3917146b7866aad4c861f2386
+SHA512: f403fa2302f8df1aba57aaecbc957a29e8356ddadbe363db04094454df466b81b4c8b269e2407d39ee9feafe3a18b543827d93c7b206e1976b62cd18b143caf2
+Description: Commands to control the kernel modules and libraries
+ This package contains the core ZFS command line utilities.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs
+Priority: extra
+Section: optional
+Installed-Size: 4930
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: zfs-dkms, libnvpair3, libuutil3, libzfs5, libzpool5, staker-repo
+Filename: pool/main/z/zfs/zfs_2.1.3-1_amd64.deb
+Size: 1515698
+MD5sum: d0d865fa65176bf61b6400a9b88f04a5
+SHA1: ac5d5c0c7bd967107e23e89485e8ddf26fe61cfa
+SHA256: 244cea5fa0e603ea7aff7f54147e392e025407f805f748d20c85e7c22368e5bb
+SHA512: c03b591e923f314a5f0987a4e180918d8bcb984274cbaa9967a907cad7028cc68fe2fa5492a53fd031be67b08c250e8be96b45ac56706c138fd81f79e22229c9
+Description: Commands to control the kernel modules and libraries
+ This package contains the core ZFS command line utilities.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dkms
+Priority: optional
+Section: optional
+Installed-Size: 27029
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: dkms, staker-repo
+Filename: pool/main/z/zfs-dkms/zfs-dkms_2.1.11-1_amd64.deb
+Size: 3339416
+MD5sum: 6ef69be73c8916eaa209ff1914eb4266
+SHA1: 28c8fd7f85e32404792178247492d38b904f7c3a
+SHA256: 489da0c26005d024a9f58bb3e59871b79fdb4ab9874518129bd349fb5de1508e
+SHA512: d68e1c4eac0dbe014e9edac92b1d7b6f0a565f19a9de4d38d4c32e830eae06e690666da53de2f10bf66a1fc044a5a43c1791b0fcab11c51f778363143c26a65a
+Description: Kernel module(s) (dkms)
+ This package contains the dkms ZFS kernel modules.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dkms
+Priority: extra
+Section: optional
+Installed-Size: 26915
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: dkms, staker-repo
+Filename: pool/main/z/zfs-dkms/zfs-dkms_2.1.5-1_amd64.deb
+Size: 3257396
+MD5sum: 4e152295e0235b81cdbb645e8ef56e20
+SHA1: 835394d3a785df86c74b10bf5911179c3ffd919c
+SHA256: 06340e0f76cadd275acbd6fd08ea5829b6d1bb0f8c91cc2450c73f910760fc10
+SHA512: 899fa6cdfd62629d6e2fcc3de2ac3743fcdf962fcc5c31c2abcb05ec464b2bf93729204e7d6d9fa6481b0ed2a4c518c0559fea14aa06206574af2197f6fbc72b
+Description: Kernel module(s) (dkms)
+ This package contains the dkms ZFS kernel modules.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dkms
+Priority: extra
+Section: optional
+Installed-Size: 26753
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: dkms, staker-repo
+Filename: pool/main/z/zfs-dkms/zfs-dkms_2.1.4-1_amd64.deb
+Size: 3256932
+MD5sum: 2ab9595c9a17c5ff06cca411da87d3d2
+SHA1: 9b0a5baaf8b71523c033991c53f529d8f991cb6e
+SHA256: 9ac21265376346e152ba0467ce1cf4c12b4a37026ed7be170016cf1c77ef1323
+SHA512: 508afead647757a51d1a722dae804662e32a9f72be088433b79dd3faacac6c27e54f45e05d444cdd0ad05b7dbe64a34936311bd7f317933c7ec36bd33bb31bc7
+Description: Kernel module(s) (dkms)
+ This package contains the dkms ZFS kernel modules.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dkms
+Priority: extra
+Section: optional
+Installed-Size: 26754
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: dkms, staker-repo
+Filename: pool/main/z/zfs-dkms/zfs-dkms_2.1.3-1_amd64.deb
+Size: 3256860
+MD5sum: 958b22a29a3ccfe477ab05d02e9d423e
+SHA1: ec086fb89bc8e2acce9bb2b843daf30ccd9397ba
+SHA256: f46aecb81ab7e66cf79f869e105a0f4bb5074594aabc5eac0c7bdae493e91500
+SHA512: a69d350d529577d1fba0f7d4381e82c0b8fdf2b1eb5cb6735db52aac49be57c9f5e97fbaa5f9dac2d3ba0d0f217eeef19b4b73c7e897750acc3403b9faea0d77
+Description: Kernel module(s) (dkms)
+ This package contains the dkms ZFS kernel modules.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dracut
+Priority: optional
+Section: optional
+Installed-Size: 25
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-dracut/zfs-dracut_2.1.11-1_amd64.deb
+Size: 11340
+MD5sum: a70905fbdcf2374c851318356402d6a4
+SHA1: cf16245c2d6b6276292422b5511515ef0eb4a670
+SHA256: 671c84d057b188758056e2b7f8aa7b76b0aeb5aca7f4cb2549675321288bbb32
+SHA512: bd10b3d7791b465350acf202b3f773dce9c1b70cd6e4db3777eaf0bf7b66c0f9d8bbdbcbc0f8f77f83f1e64ecd3393863f7092e2d643d9fcdc95fde2dd32f106
+Description: Dracut module
+ This package contains a dracut module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dracut
+Priority: extra
+Section: optional
+Installed-Size: 24
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-dracut/zfs-dracut_2.1.5-1_amd64.deb
+Size: 11296
+MD5sum: 80326499f283cd485f7edf031efbd0c3
+SHA1: 5bae54c466d892f3a68ee2377538b5c04414429b
+SHA256: c956f70dfc893a44716b8dafe544d86244fdd8750d1b05eff696db91f0cd9531
+SHA512: 60c17bf36052aa989cef57393862562bb222938728fcb0ab514434b143c075c8bbdee2e6aabc4df657025ce6f82ac0464b09db301bd962fea8b6e2ed876cb52a
+Description: Dracut module
+ This package contains a dracut module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dracut
+Priority: extra
+Section: optional
+Installed-Size: 33
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-dracut/zfs-dracut_2.1.4-1_amd64.deb
+Size: 16892
+MD5sum: b0be419342eee5374f4651309ba5f239
+SHA1: 5134f29aa387d19c435736c0a7fe17e1cace3459
+SHA256: 5e074420cdd69f12933a6ed5b9145f833f414069e81318b4aee5bbe22305b1b1
+SHA512: 28001a1159c52775e06f7f2de1c203c9d9778ba7160c01072f6d5adacd591e330df4f70e01cc51c66b822998cbc99109acc0b9738073416facc06113c1cc88d0
+Description: Dracut module
+ This package contains a dracut module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-dracut
+Priority: extra
+Section: optional
+Installed-Size: 33
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-dracut/zfs-dracut_2.1.3-1_amd64.deb
+Size: 16896
+MD5sum: 246f55c0c9214184886f5a3b896a04f9
+SHA1: 3dc1e14d40c238fbf2f05113095fed4f4cb2ec0b
+SHA256: 1a1af752067229b5725f42114a653c4c5b849ee7ecba4366653797d44c1d1152
+SHA512: a8da649234b36729c358b448dab9cd47701972d523d7155820a65294b4704ae5bd2786c751affb438f4e51cb0ca2a3563f8e5ad07cbe6d5115d5a565a39c3bf6
+Description: Dracut module
+ This package contains a dracut module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-initramfs
+Priority: optional
+Section: optional
+Installed-Size: 34
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.11-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-initramfs/zfs-initramfs_2.1.11-1_amd64.deb
+Size: 13944
+MD5sum: aaee92286bb960c5e7404798dcfcc767
+SHA1: 9f950b58d53882803cb4203d48b28380d851e179
+SHA256: 7126aee54c162bef8e909b848a7f84998ab4efba6b7c871919b7c0c237c03d3b
+SHA512: 56f70a135e05c10c87803533b7b8da35426b70841058db022c448c079e252b46232e8e5f625eb3ade1c262e6e2c9bbf753a5d1e80d1f378c57de520fb1cdc8c1
+Description: Initramfs module
+ This package contains a initramfs module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.5.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-initramfs
+Priority: extra
+Section: optional
+Installed-Size: 34
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.5-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-initramfs/zfs-initramfs_2.1.5-1_amd64.deb
+Size: 13988
+MD5sum: 3d24e95f3f9f6bc166bee6f53fe1be71
+SHA1: 22197917c4fc3602045aa79b5c93361752bc9d24
+SHA256: ab83257c5e2e37baf3aecea41754165626d22a0598a12991c69e021e3102179c
+SHA512: 99413400bbf26e408f17d37be815af68e82ed82f634ddb2dca8505c2397e4d8e807d9962c1e1610bc9c551b8bf11f4bc9ec141d8e24d5cecd4f07d9eb114eacd
+Description: Initramfs module
+ This package contains a initramfs module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-initramfs
+Priority: extra
+Section: optional
+Installed-Size: 34
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.4-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-initramfs/zfs-initramfs_2.1.4-1_amd64.deb
+Size: 13976
+MD5sum: ebe4119aec53a533a5f43782ae9065db
+SHA1: 69faddf04b27e962fb7f263b3a3ea088c58b695e
+SHA256: 64b39119eb9ecafbf906120b4eea4b6bb0465b81174e62a9c1bae85db24fae92
+SHA512: bd9fd7a3a0ccfd5fb0afe3c794d813a24d9861e682473781b5c763c2fb98dcf8a4efd8cbd7464f3a24a682644d9dd269a1101588aff6f5dc7ceb08452b3f4dba
+Description: Initramfs module
+ This package contains a initramfs module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
+Package: zfs-initramfs
+Priority: extra
+Section: optional
+Installed-Size: 34
+Maintainer: hello@mr.staker.ltd
+Architecture: amd64
+Version: 2.1.3-1
+Depends: zfs, zfs-dkms, staker-repo
+Filename: pool/main/z/zfs-initramfs/zfs-initramfs_2.1.3-1_amd64.deb
+Size: 13988
+MD5sum: 02b75eaeed16739bb8e29afd69404987
+SHA1: 8fc9d311ace8025cffef1c75a2a7ee8c1861768a
+SHA256: cf8e644ec4ee58333df662d78204894a5bafd382cbcea204637e6a8bdccae23e
+SHA512: 8a40d7b8a7fbd41071c12422a081b1cbb1cc0dc5a08715af86ffe3765134985a63a48508bb7776b87a843360b28b29f140c559872cee8fd245a2ac790cab98c3
+Description: Initramfs module
+ This package contains a initramfs module used to construct an initramfs
+ image which is ZFS aware.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+Homepage: https://github.com/openzfs/zfs
+License: CDDL
+Vendor: none
+
