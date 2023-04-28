@@ -569,31 +569,6 @@ Homepage: https://github.com/openzfs/zfs
 License: CDDL
 Vendor: none
 
-Package: libnvpair3
-Priority: extra
-Section: optional
-Installed-Size: 426
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: libc6 (>= 2.7), libc6, staker-repo
-Filename: pool/main/libn/libnvpair3/libnvpair3_2.1.3-1_amd64.deb
-Size: 104776
-MD5sum: f4eb254fccd1bb7aba91a617435a923b
-SHA1: 69da22f4c44dbb0cd79271b8613759bcecb4aa1e
-SHA256: deb2f61d1a4efeb2027300e7cd144e918e15e68dc3c726a50381ba3ee9fbad91
-SHA512: ec3c881055bccd34f2394d01e02555b9cb35a31ffd6399e7a9db4e9a600717af70cbf5fb6250746f35a48c354055f8d1fa2e3e491b2f26d7856837933721a976
-Description: Solaris name-value library for Linux
- This package contains routines for packing and unpacking name-value
- pairs.  This functionality is used to portably transport data across
- process boundaries, between kernel and user space, and can be used
- to write self describing data structures on disk.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
 Package: libuutil3
 Priority: optional
 Section: optional
@@ -668,36 +643,6 @@ MD5sum: 0a46195f5f4c7b9c5d598d516363ac92
 SHA1: 8cbc6110cb9166c7c81457e9e34b83658decf186
 SHA256: 78c74a79c8694c4a22958ffc28d23a1f103d7b6242f5ef3c82c70cd3631cab4e
 SHA512: b73f400cb029f13fa06e56641c7f7454d60565e669b7a0c549cc664be78503dfb43e0f6a3be478f7a03c252dd308b53beb0d0ff2b3f094f0bf7723c4cd5df1ba
-Description: Solaris userland utility library for Linux
- This library provides a variety of compatibility functions for OpenZFS:
-  * libspl: The Solaris Porting Layer userland library, which provides APIs
-    that make it possible to run Solaris user code in a Linux environment
-    with relatively minimal modification.
-  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
-    library.
-  * libefi: The Extensible Firmware Interface library for GUID disk
-    partitioning.
-  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
-Package: libuutil3
-Priority: extra
-Section: optional
-Installed-Size: 260
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: libc6 (>= 2.17), libc6, staker-repo
-Filename: pool/main/libu/libuutil3/libuutil3_2.1.3-1_amd64.deb
-Size: 75656
-MD5sum: 64f8842341030c76a5b4e59a497f6856
-SHA1: 1d7110990d3995626a646d086f6a2a5c63254729
-SHA256: 87e004c5ac89afe6e5d466eb3515e50b0b1295e74268efa55318970facff9ef7
-SHA512: c9e324a981977f8ae1115ad8d79c0b8527fae1def58074c4c14afd549b71232de175074dad4836e99f26de933d35b8849f230e52704ca689f2f6159b4493fe2c
 Description: Solaris userland utility library for Linux
  This library provides a variety of compatibility functions for OpenZFS:
   * libspl: The Solaris Porting Layer userland library, which provides APIs
@@ -888,28 +833,6 @@ Homepage: https://github.com/openzfs/zfs
 License: CDDL
 Vendor: none
 
-Package: libzfs5
-Priority: extra
-Section: optional
-Installed-Size: 2861
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: libssl1.1, zlib1g, libuuid1, libblkid1, libudev1, libc6, zfs-dkms, staker-repo
-Filename: pool/main/libz/libzfs5/libzfs5_2.1.3-1_amd64.deb
-Size: 829224
-MD5sum: 9e44c560e493643c5ebff93a99325841
-SHA1: 32bdc0a13dfd4e5c33bb0223023bebff89e01446
-SHA256: c87a9197e58b64c8d4f8b43982c3b0f52b841bbb6148749c49ccb0fb60f7a390
-SHA512: 5253c6f32eb2304b044ba60e5ed028158b5528502ecde505607f93edf4d45dada06bb81b57d072307b4ac23e2564ff20721623562687ee6e39b0720e46ab70cc
-Description: Native ZFS filesystem library for Linux
- This package provides support for managing ZFS filesystems
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
 Package: libzfs5-dev
 Priority: optional
 Section: optional
@@ -979,29 +902,6 @@ Homepage: https://github.com/openzfs/zfs
 License: CDDL
 Vendor: none
 
-Package: libzfs5-devel
-Priority: extra
-Section: optional
-Installed-Size: 2736
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: libzfs5, staker-repo
-Filename: pool/main/libz/libzfs5-devel/libzfs5-devel_2.1.3-1_amd64.deb
-Size: 313298
-MD5sum: e0730707ebe67bbd812f6d82f2277c8a
-SHA1: e2396f26cb13531281a81817f87517fb04d9857b
-SHA256: 5f13aa279283b5bac9d05a3233b74c251ef14bd3bf8adf44a01c4840a6d83453
-SHA512: e71dcf522813948fa32699b5223933bfebb2597a369820435a385826c17f765e1151ca488c8f835601ebb091196548a993bc15c0f66a79af45a91feb38bef593
-Description: Development headers
- This package contains the header files needed for building additional
- applications against the ZFS libraries.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
 Package: libzpool5
 Priority: optional
 Section: optional
@@ -1062,29 +962,6 @@ MD5sum: 5553b3e8028bb234ea7e083848fbba78
 SHA1: 1bcb4d39246b8a771ba5ab8733d8c0b2994e1d15
 SHA256: e8ecbe08a551c9d316e51378df7947fc541d6f1d3e98aabface95a8545550ed2
 SHA512: 845b3fc3232ad0adf44e4b10ebea1fdb96876c1292d4918e00f3ae5208923529301118a9d44961d8dc734f6e61993b212a371dc1cb7f4d1e0b08badac54db594
-Description: Native ZFS pool library for Linux
- This package contains the zpool library, which provides support
- for managing zpools
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
-Package: libzpool5
-Priority: extra
-Section: optional
-Installed-Size: 23630
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: libc6, libzfs5, libnvpair3, libuuid1, libblkid1, libudev1, staker-repo
-Filename: pool/main/libz/libzpool5/libzpool5_2.1.3-1_amd64.deb
-Size: 5282438
-MD5sum: 5893e27f0036b44801ba86b9fe2ff1b7
-SHA1: edbb5d96917a58258f9fefba5d0754377bdad0db
-SHA256: fa71d0487c29384a9850ee9b9dc6af56a641dd47ee698128fafbb09b14eced67
-SHA512: 68f3822b7eada8ec483484ff1631023e36fb1a0acb469b94f52a15ba45487b3db4b830472ac520f96c38ee0e79e69f942af534b953d0ce030062a8a95f62ddf7
 Description: Native ZFS pool library for Linux
  This package contains the zpool library, which provides support
  for managing zpools
@@ -1188,28 +1065,6 @@ MD5sum: 27ffa07234f01ca7c2bfa5c20ce8ec50
 SHA1: e8083f78f0da547ad60832f460abc144b96fea22
 SHA256: cebf2befaa07e362caa771026a967db3fd5c0f3d0df325e521805cacb44fd914
 SHA512: 4896cae83e2b2c304fde85318050a4324bd322826e82c6a875b659bfa1e9858406113d818f52e87356cac189cceedfdd096c80146553e5cacc53806de4cf31ce
-Description: Python 3.8 wrapper for libzfs_core
- This package provides a python wrapper for the libzfs_core C library.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
-Package: python3-pyzfs
-Priority: extra
-Section: optional
-Installed-Size: 652
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: libzfs5, python3, staker-repo
-Filename: pool/main/p/python3-pyzfs/python3-pyzfs_2.1.3-1_amd64.deb
-Size: 101240
-MD5sum: fb391c01b2e25e51ecbcd8f8244a5b98
-SHA1: d32b8f8b1ce6e9ebcc1f3163a9615d6e91c899ce
-SHA256: 57362fd8ddbdfc867b210b8929dca349423c91ca5cae41d2f008311929d4f581
-SHA512: 06d8e55ff5e69b879bfccee6cde2db9279ed05a89920e3b70a75ce4d84f0d5b53bf1542e0f913012c3aa4c1332faed43faffcda7f2b5c9d38c3b159138aec4d6
 Description: Python 3.8 wrapper for libzfs_core
  This package provides a python wrapper for the libzfs_core C library.
  .
@@ -1423,28 +1278,6 @@ Homepage: https://github.com/openzfs/zfs
 License: CDDL
 Vendor: none
 
-Package: zfs
-Priority: extra
-Section: optional
-Installed-Size: 4930
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: zfs-dkms, libnvpair3, libuutil3, libzfs5, libzpool5, staker-repo
-Filename: pool/main/z/zfs/zfs_2.1.3-1_amd64.deb
-Size: 1515698
-MD5sum: d0d865fa65176bf61b6400a9b88f04a5
-SHA1: ac5d5c0c7bd967107e23e89485e8ddf26fe61cfa
-SHA256: 244cea5fa0e603ea7aff7f54147e392e025407f805f748d20c85e7c22368e5bb
-SHA512: c03b591e923f314a5f0987a4e180918d8bcb984274cbaa9967a907cad7028cc68fe2fa5492a53fd031be67b08c250e8be96b45ac56706c138fd81f79e22229c9
-Description: Commands to control the kernel modules and libraries
- This package contains the core ZFS command line utilities.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
 Package: zfs-dkms
 Priority: optional
 Section: optional
@@ -1503,28 +1336,6 @@ MD5sum: 2ab9595c9a17c5ff06cca411da87d3d2
 SHA1: 9b0a5baaf8b71523c033991c53f529d8f991cb6e
 SHA256: 9ac21265376346e152ba0467ce1cf4c12b4a37026ed7be170016cf1c77ef1323
 SHA512: 508afead647757a51d1a722dae804662e32a9f72be088433b79dd3faacac6c27e54f45e05d444cdd0ad05b7dbe64a34936311bd7f317933c7ec36bd33bb31bc7
-Description: Kernel module(s) (dkms)
- This package contains the dkms ZFS kernel modules.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
-Package: zfs-dkms
-Priority: extra
-Section: optional
-Installed-Size: 26754
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: dkms, staker-repo
-Filename: pool/main/z/zfs-dkms/zfs-dkms_2.1.3-1_amd64.deb
-Size: 3256860
-MD5sum: 958b22a29a3ccfe477ab05d02e9d423e
-SHA1: ec086fb89bc8e2acce9bb2b843daf30ccd9397ba
-SHA256: f46aecb81ab7e66cf79f869e105a0f4bb5074594aabc5eac0c7bdae493e91500
-SHA512: a69d350d529577d1fba0f7d4381e82c0b8fdf2b1eb5cb6735db52aac49be57c9f5e97fbaa5f9dac2d3ba0d0f217eeef19b4b73c7e897750acc3403b9faea0d77
 Description: Kernel module(s) (dkms)
  This package contains the dkms ZFS kernel modules.
  .
@@ -1602,29 +1413,6 @@ Homepage: https://github.com/openzfs/zfs
 License: CDDL
 Vendor: none
 
-Package: zfs-dracut
-Priority: extra
-Section: optional
-Installed-Size: 33
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: zfs, zfs-dkms, staker-repo
-Filename: pool/main/z/zfs-dracut/zfs-dracut_2.1.3-1_amd64.deb
-Size: 16896
-MD5sum: 246f55c0c9214184886f5a3b896a04f9
-SHA1: 3dc1e14d40c238fbf2f05113095fed4f4cb2ec0b
-SHA256: 1a1af752067229b5725f42114a653c4c5b849ee7ecba4366653797d44c1d1152
-SHA512: a8da649234b36729c358b448dab9cd47701972d523d7155820a65294b4704ae5bd2786c751affb438f4e51cb0ca2a3563f8e5ad07cbe6d5115d5a565a39c3bf6
-Description: Dracut module
- This package contains a dracut module used to construct an initramfs
- image which is ZFS aware.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
 Package: zfs-initramfs
 Priority: optional
 Section: optional
@@ -1685,29 +1473,6 @@ MD5sum: ebe4119aec53a533a5f43782ae9065db
 SHA1: 69faddf04b27e962fb7f263b3a3ea088c58b695e
 SHA256: 64b39119eb9ecafbf906120b4eea4b6bb0465b81174e62a9c1bae85db24fae92
 SHA512: bd9fd7a3a0ccfd5fb0afe3c794d813a24d9861e682473781b5c763c2fb98dcf8a4efd8cbd7464f3a24a682644d9dd269a1101588aff6f5dc7ceb08452b3f4dba
-Description: Initramfs module
- This package contains a initramfs module used to construct an initramfs
- image which is ZFS aware.
- .
- (Converted from a rpm package by alien version 8.95.)
-Homepage: https://github.com/openzfs/zfs
-License: CDDL
-Vendor: none
-
-Package: zfs-initramfs
-Priority: extra
-Section: optional
-Installed-Size: 34
-Maintainer: hello@mr.staker.ltd
-Architecture: amd64
-Version: 2.1.3-1
-Depends: zfs, zfs-dkms, staker-repo
-Filename: pool/main/z/zfs-initramfs/zfs-initramfs_2.1.3-1_amd64.deb
-Size: 13988
-MD5sum: 02b75eaeed16739bb8e29afd69404987
-SHA1: 8fc9d311ace8025cffef1c75a2a7ee8c1861768a
-SHA256: cf8e644ec4ee58333df662d78204894a5bafd382cbcea204637e6a8bdccae23e
-SHA512: 8a40d7b8a7fbd41071c12422a081b1cbb1cc0dc5a08715af86ffe3765134985a63a48508bb7776b87a843360b28b29f140c559872cee8fd245a2ac790cab98c3
 Description: Initramfs module
  This package contains a initramfs module used to construct an initramfs
  image which is ZFS aware.
